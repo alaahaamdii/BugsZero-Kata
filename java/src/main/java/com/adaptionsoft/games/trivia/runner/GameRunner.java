@@ -2,6 +2,8 @@
 package com.adaptionsoft.games.trivia.runner;
 import java.util.Random;
 
+import com.adaptionsoft.games.newtrivia.QuestionImpl;
+import com.adaptionsoft.games.newtrivia.Questions;
 import com.adaptionsoft.games.uglytrivia.Game;
 
 
@@ -12,7 +14,7 @@ public class GameRunner {
 	public static void main(String[] args) {
 		Random rand = new Random();
 		playGame(rand);
-		
+
 	}
 
 	public static void playGame(Random rand) {
@@ -37,4 +39,4 @@ public class GameRunner {
 
 		} while (notAWinner);
 	}
-}
+	}
